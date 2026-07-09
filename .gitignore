@@ -1,0 +1,5 @@
+copilot_demo/.venv/
+__pycache__/
+*.pyc
+copilot_demo/data/feedback.jsonl
+.pytest_cache/
