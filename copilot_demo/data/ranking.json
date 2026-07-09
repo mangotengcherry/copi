@@ -1,0 +1,1562 @@
+[
+  {
+    "change_id": "CHG-2024-001",
+    "group": "WL",
+    "risk_score": 0.9748,
+    "risk_level": "High",
+    "representative_item": "EDS_057",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.997,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7589
+    }
+  },
+  {
+    "change_id": "CHG-2024-001",
+    "group": "Cell_Edge",
+    "risk_score": 0.1008,
+    "risk_level": "Low",
+    "representative_item": "EDS_178",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1873,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3522
+    }
+  },
+  {
+    "change_id": "CHG-2024-001",
+    "group": "Peripheral",
+    "risk_score": 0.0871,
+    "risk_level": "Low",
+    "representative_item": "EDS_155",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1876,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2145
+    }
+  },
+  {
+    "change_id": "CHG-2024-001",
+    "group": "Contact",
+    "risk_score": 0.0791,
+    "risk_level": "Low",
+    "representative_item": "EDS_180",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.155,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2487
+    }
+  },
+  {
+    "change_id": "CHG-2024-001",
+    "group": "Metal",
+    "risk_score": 0.069,
+    "risk_level": "Low",
+    "representative_item": "EDS_053",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1659,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1093
+    }
+  },
+  {
+    "change_id": "CHG-2024-001",
+    "group": "Vth",
+    "risk_score": 0.9401,
+    "risk_level": "High",
+    "representative_item": "EDS_198",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9945,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4202
+    }
+  },
+  {
+    "change_id": "CHG-2024-001",
+    "group": "Leakage",
+    "risk_score": 0.9635,
+    "risk_level": "High",
+    "representative_item": "EDS_127",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9992,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6378
+    }
+  },
+  {
+    "change_id": "CHG-2024-001",
+    "group": "Speed",
+    "risk_score": 0.0983,
+    "risk_level": "Low",
+    "representative_item": "EDS_056",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.247,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1179
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "WL",
+    "risk_score": 0.1014,
+    "risk_level": "Low",
+    "representative_item": "EDS_017",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2227,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2343
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "Cell_Edge",
+    "risk_score": 0.0534,
+    "risk_level": "Low",
+    "representative_item": "EDS_018",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1301,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0782
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "Peripheral",
+    "risk_score": 0.9649,
+    "risk_level": "High",
+    "representative_item": "EDS_179",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9936,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6718
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "Contact",
+    "risk_score": 0.0722,
+    "risk_level": "Low",
+    "representative_item": "EDS_116",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1817,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0856
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "Metal",
+    "risk_score": 0.9401,
+    "risk_level": "High",
+    "representative_item": "EDS_005",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9889,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4397
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "Vth",
+    "risk_score": 0.0759,
+    "risk_level": "Low",
+    "representative_item": "EDS_174",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1933,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0828
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "Leakage",
+    "risk_score": 0.077,
+    "risk_level": "Low",
+    "representative_item": "EDS_055",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1717,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1691
+    }
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "group": "Speed",
+    "risk_score": 0.9365,
+    "risk_level": "High",
+    "representative_item": "EDS_032",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9699,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4705
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "WL",
+    "risk_score": 0.9508,
+    "risk_level": "High",
+    "representative_item": "EDS_009",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9978,
+      "coverage": 1.0,
+      "historical_recurrence": 0.5158
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "Cell_Edge",
+    "risk_score": 0.9677,
+    "risk_level": "High",
+    "representative_item": "EDS_050",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9881,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7184
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "Peripheral",
+    "risk_score": 0.1009,
+    "risk_level": "Low",
+    "representative_item": "EDS_187",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1845,
+      "coverage": 0.0,
+      "historical_recurrence": 0.363
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "Contact",
+    "risk_score": 0.0942,
+    "risk_level": "Low",
+    "representative_item": "EDS_044",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1774,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3211
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "Metal",
+    "risk_score": 0.0692,
+    "risk_level": "Low",
+    "representative_item": "EDS_165",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1674,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1064
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "Vth",
+    "risk_score": 0.0783,
+    "risk_level": "Low",
+    "representative_item": "EDS_070",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1925,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1097
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "Leakage",
+    "risk_score": 0.0786,
+    "risk_level": "Low",
+    "representative_item": "EDS_191",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1954,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1019
+    }
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "group": "Speed",
+    "risk_score": 0.0665,
+    "risk_level": "Low",
+    "representative_item": "EDS_136",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1747,
+      "coverage": 0.0,
+      "historical_recurrence": 0.054
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "WL",
+    "risk_score": 0.9489,
+    "risk_level": "High",
+    "representative_item": "EDS_145",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.968,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6016
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "Cell_Edge",
+    "risk_score": 0.0612,
+    "risk_level": "Low",
+    "representative_item": "EDS_098",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1645,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0363
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "Peripheral",
+    "risk_score": 0.0848,
+    "risk_level": "Low",
+    "representative_item": "EDS_043",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1938,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1695
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "Contact",
+    "risk_score": 0.1191,
+    "risk_level": "Low",
+    "representative_item": "EDS_076",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2341,
+      "coverage": 0.0,
+      "historical_recurrence": 0.372
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "Metal",
+    "risk_score": 0.9578,
+    "risk_level": "High",
+    "representative_item": "EDS_101",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9935,
+      "coverage": 1.0,
+      "historical_recurrence": 0.601
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "Vth",
+    "risk_score": 0.1277,
+    "risk_level": "Low",
+    "representative_item": "EDS_150",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.254,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3885
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "Leakage",
+    "risk_score": 0.9472,
+    "risk_level": "High",
+    "representative_item": "EDS_023",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9911,
+      "coverage": 1.0,
+      "historical_recurrence": 0.5035
+    }
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "group": "Speed",
+    "risk_score": 0.0894,
+    "risk_level": "Low",
+    "representative_item": "EDS_040",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1979,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2018
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "WL",
+    "risk_score": 0.0749,
+    "risk_level": "Low",
+    "representative_item": "EDS_193",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1977,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0572
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "Cell_Edge",
+    "risk_score": 0.0816,
+    "risk_level": "Low",
+    "representative_item": "EDS_170",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.211,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0772
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "Peripheral",
+    "risk_score": 0.0955,
+    "risk_level": "Low",
+    "representative_item": "EDS_139",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2302,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1494
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "Contact",
+    "risk_score": 0.1185,
+    "risk_level": "Low",
+    "representative_item": "EDS_156",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2306,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3777
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "Metal",
+    "risk_score": 0.0767,
+    "risk_level": "Low",
+    "representative_item": "EDS_141",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1613,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2021
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "Vth",
+    "risk_score": 0.9482,
+    "risk_level": "High",
+    "representative_item": "EDS_118",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9967,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4939
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "Leakage",
+    "risk_score": 0.9437,
+    "risk_level": "High",
+    "representative_item": "EDS_183",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9984,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4423
+    }
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "group": "Speed",
+    "risk_score": 0.0886,
+    "risk_level": "Low",
+    "representative_item": "EDS_136",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2144,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1353
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "WL",
+    "risk_score": 0.9631,
+    "risk_level": "High",
+    "representative_item": "EDS_081",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9954,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6471
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "Cell_Edge",
+    "risk_score": 0.0775,
+    "risk_level": "Low",
+    "representative_item": "EDS_170",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1518,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2441
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "Peripheral",
+    "risk_score": 0.0984,
+    "risk_level": "Low",
+    "representative_item": "EDS_059",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1684,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3947
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "Contact",
+    "risk_score": 0.087,
+    "risk_level": "Low",
+    "representative_item": "EDS_140",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2385,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0354
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "Metal",
+    "risk_score": 0.0927,
+    "risk_level": "Low",
+    "representative_item": "EDS_013",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1535,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3898
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "Vth",
+    "risk_score": 0.069,
+    "risk_level": "Low",
+    "representative_item": "EDS_062",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1738,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0816
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "Leakage",
+    "risk_score": 0.9584,
+    "risk_level": "High",
+    "representative_item": "EDS_111",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9813,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6492
+    }
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "group": "Speed",
+    "risk_score": 0.0722,
+    "risk_level": "Low",
+    "representative_item": "EDS_112",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1582,
+      "coverage": 0.0,
+      "historical_recurrence": 0.168
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "WL",
+    "risk_score": 0.9772,
+    "risk_level": "High",
+    "representative_item": "EDS_009",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9996,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7734
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "Cell_Edge",
+    "risk_score": 0.1259,
+    "risk_level": "Low",
+    "representative_item": "EDS_154",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2526,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3748
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "Peripheral",
+    "risk_score": 0.0873,
+    "risk_level": "Low",
+    "representative_item": "EDS_019",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1869,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2184
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "Contact",
+    "risk_score": 0.954,
+    "risk_level": "High",
+    "representative_item": "EDS_164",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9694,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6467
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "Metal",
+    "risk_score": 0.1009,
+    "risk_level": "Low",
+    "representative_item": "EDS_013",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.255,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1168
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "Vth",
+    "risk_score": 0.0576,
+    "risk_level": "Low",
+    "representative_item": "EDS_038",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1573,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0256
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "Leakage",
+    "risk_score": 0.0947,
+    "risk_level": "Low",
+    "representative_item": "EDS_039",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1863,
+      "coverage": 0.0,
+      "historical_recurrence": 0.295
+    }
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "group": "Speed",
+    "risk_score": 0.0738,
+    "risk_level": "Low",
+    "representative_item": "EDS_080",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1992,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0407
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "WL",
+    "risk_score": 0.9666,
+    "risk_level": "High",
+    "representative_item": "EDS_121",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9822,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7279
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "Cell_Edge",
+    "risk_score": 0.0886,
+    "risk_level": "Low",
+    "representative_item": "EDS_106",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1617,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3197
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "Peripheral",
+    "risk_score": 0.1112,
+    "risk_level": "Low",
+    "representative_item": "EDS_179",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2077,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3848
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "Contact",
+    "risk_score": 0.092,
+    "risk_level": "Low",
+    "representative_item": "EDS_092",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2345,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0996
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "Metal",
+    "risk_score": 0.0924,
+    "risk_level": "Low",
+    "representative_item": "EDS_085",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1829,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2838
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "Vth",
+    "risk_score": 0.1008,
+    "risk_level": "Low",
+    "representative_item": "EDS_182",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2015,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3028
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "Leakage",
+    "risk_score": 0.9746,
+    "risk_level": "High",
+    "representative_item": "EDS_095",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.992,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7745
+    }
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "group": "Speed",
+    "risk_score": 0.9574,
+    "risk_level": "High",
+    "representative_item": "EDS_096",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9459,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7628
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "WL",
+    "risk_score": 0.0804,
+    "risk_level": "Low",
+    "representative_item": "EDS_009",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1318,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3424
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "Cell_Edge",
+    "risk_score": 0.0786,
+    "risk_level": "Low",
+    "representative_item": "EDS_186",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1436,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2837
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "Peripheral",
+    "risk_score": 0.1032,
+    "risk_level": "Low",
+    "representative_item": "EDS_131",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2039,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3183
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "Contact",
+    "risk_score": 0.9461,
+    "risk_level": "High",
+    "representative_item": "EDS_108",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9727,
+      "coverage": 1.0,
+      "historical_recurrence": 0.5562
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "Metal",
+    "risk_score": 0.9584,
+    "risk_level": "High",
+    "representative_item": "EDS_013",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9921,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6116
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "Vth",
+    "risk_score": 0.072,
+    "risk_level": "Low",
+    "representative_item": "EDS_134",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2019,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0134
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "Leakage",
+    "risk_score": 0.0676,
+    "risk_level": "Low",
+    "representative_item": "EDS_127",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1492,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1532
+    }
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "group": "Speed",
+    "risk_score": 0.0955,
+    "risk_level": "Low",
+    "representative_item": "EDS_080",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2188,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1898
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "WL",
+    "risk_score": 0.9258,
+    "risk_level": "High",
+    "representative_item": "EDS_113",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9309,
+      "coverage": 1.0,
+      "historical_recurrence": 0.5002
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "Cell_Edge",
+    "risk_score": 0.9689,
+    "risk_level": "High",
+    "representative_item": "EDS_170",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9974,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6984
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "Peripheral",
+    "risk_score": 0.9702,
+    "risk_level": "High",
+    "representative_item": "EDS_075",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9982,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7079
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "Contact",
+    "risk_score": 0.1297,
+    "risk_level": "Low",
+    "representative_item": "EDS_044",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2878,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2896
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "Metal",
+    "risk_score": 0.0964,
+    "risk_level": "Low",
+    "representative_item": "EDS_085",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2726,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0098
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "Vth",
+    "risk_score": 0.0919,
+    "risk_level": "Low",
+    "representative_item": "EDS_158",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1822,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2815
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "Leakage",
+    "risk_score": 0.0978,
+    "risk_level": "Low",
+    "representative_item": "EDS_047",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1662,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3961
+    }
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "group": "Speed",
+    "risk_score": 0.0743,
+    "risk_level": "Low",
+    "representative_item": "EDS_008",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1846,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0971
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "WL",
+    "risk_score": 0.9246,
+    "risk_level": "High",
+    "representative_item": "EDS_097",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.948,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4283
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "Cell_Edge",
+    "risk_score": 0.952,
+    "risk_level": "High",
+    "representative_item": "EDS_058",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9979,
+      "coverage": 1.0,
+      "historical_recurrence": 0.5268
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "Peripheral",
+    "risk_score": 0.1256,
+    "risk_level": "Low",
+    "representative_item": "EDS_171",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2592,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3491
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "Contact",
+    "risk_score": 0.0614,
+    "risk_level": "Low",
+    "representative_item": "EDS_164",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1088,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2329
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "Metal",
+    "risk_score": 0.0819,
+    "risk_level": "Low",
+    "representative_item": "EDS_141",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1868,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1648
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "Vth",
+    "risk_score": 0.1082,
+    "risk_level": "Low",
+    "representative_item": "EDS_054",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2561,
+      "coverage": 0.0,
+      "historical_recurrence": 0.186
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "Leakage",
+    "risk_score": 0.0884,
+    "risk_level": "Low",
+    "representative_item": "EDS_135",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2288,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0833
+    }
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "group": "Speed",
+    "risk_score": 0.968,
+    "risk_level": "High",
+    "representative_item": "EDS_192",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9871,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7248
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "WL",
+    "risk_score": 0.0577,
+    "risk_level": "Low",
+    "representative_item": "EDS_073",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1376,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0952
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "Cell_Edge",
+    "risk_score": 0.0863,
+    "risk_level": "Low",
+    "representative_item": "EDS_154",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1574,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3116
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "Peripheral",
+    "risk_score": 0.9374,
+    "risk_level": "High",
+    "representative_item": "EDS_107",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9828,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4344
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "Contact",
+    "risk_score": 0.0704,
+    "risk_level": "Low",
+    "representative_item": "EDS_004",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1795,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0763
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "Metal",
+    "risk_score": 0.0732,
+    "risk_level": "Low",
+    "representative_item": "EDS_085",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1572,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1822
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "Vth",
+    "risk_score": 0.0986,
+    "risk_level": "Low",
+    "representative_item": "EDS_022",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1755,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3721
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "Leakage",
+    "risk_score": 0.0842,
+    "risk_level": "Low",
+    "representative_item": "EDS_159",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1763,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2248
+    }
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "group": "Speed",
+    "risk_score": 0.9552,
+    "risk_level": "High",
+    "representative_item": "EDS_032",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9993,
+      "coverage": 1.0,
+      "historical_recurrence": 0.5551
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "WL",
+    "risk_score": 0.9584,
+    "risk_level": "High",
+    "representative_item": "EDS_089",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9882,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6257
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "Cell_Edge",
+    "risk_score": 0.0723,
+    "risk_level": "Low",
+    "representative_item": "EDS_050",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1485,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2035
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "Peripheral",
+    "risk_score": 0.0765,
+    "risk_level": "Low",
+    "representative_item": "EDS_147",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1354,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2908
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "Contact",
+    "risk_score": 0.0872,
+    "risk_level": "Low",
+    "representative_item": "EDS_028",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1685,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2821
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "Metal",
+    "risk_score": 0.9625,
+    "risk_level": "High",
+    "representative_item": "EDS_173",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9693,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7321
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "Vth",
+    "risk_score": 0.0582,
+    "risk_level": "Low",
+    "representative_item": "EDS_110",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1591,
+      "coverage": 0.0,
+      "historical_recurrence": 0.025
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "Leakage",
+    "risk_score": 0.9613,
+    "risk_level": "High",
+    "representative_item": "EDS_071",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9745,
+      "coverage": 1.0,
+      "historical_recurrence": 0.702
+    }
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "group": "Speed",
+    "risk_score": 0.1014,
+    "risk_level": "Low",
+    "representative_item": "EDS_184",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.231,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2055
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "WL",
+    "risk_score": 0.936,
+    "risk_level": "High",
+    "representative_item": "EDS_089",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9756,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4454
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "Cell_Edge",
+    "risk_score": 0.0897,
+    "risk_level": "Low",
+    "representative_item": "EDS_042",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2009,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1942
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "Peripheral",
+    "risk_score": 0.0848,
+    "risk_level": "Low",
+    "representative_item": "EDS_155",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2066,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1246
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "Contact",
+    "risk_score": 0.0971,
+    "risk_level": "Low",
+    "representative_item": "EDS_124",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2259,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1809
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "Metal",
+    "risk_score": 0.1044,
+    "risk_level": "Low",
+    "representative_item": "EDS_165",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2488,
+      "coverage": 0.0,
+      "historical_recurrence": 0.1735
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "Vth",
+    "risk_score": 0.9739,
+    "risk_level": "High",
+    "representative_item": "EDS_190",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9932,
+      "coverage": 1.0,
+      "historical_recurrence": 0.7632
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "Leakage",
+    "risk_score": 0.0724,
+    "risk_level": "Low",
+    "representative_item": "EDS_007",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1509,
+      "coverage": 0.0,
+      "historical_recurrence": 0.196
+    }
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "group": "Speed",
+    "risk_score": 0.0806,
+    "risk_level": "Low",
+    "representative_item": "EDS_168",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1367,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3274
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "WL",
+    "risk_score": 0.0595,
+    "risk_level": "Low",
+    "representative_item": "EDS_049",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1618,
+      "coverage": 0.0,
+      "historical_recurrence": 0.0288
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "Cell_Edge",
+    "risk_score": 0.9155,
+    "risk_level": "High",
+    "representative_item": "EDS_026",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9272,
+      "coverage": 1.0,
+      "historical_recurrence": 0.4103
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "Peripheral",
+    "risk_score": 0.0985,
+    "risk_level": "Low",
+    "representative_item": "EDS_147",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1767,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3667
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "Contact",
+    "risk_score": 0.9504,
+    "risk_level": "High",
+    "representative_item": "EDS_124",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9941,
+      "coverage": 1.0,
+      "historical_recurrence": 0.5246
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "Metal",
+    "risk_score": 0.9579,
+    "risk_level": "High",
+    "representative_item": "EDS_005",
+    "factors": {
+      "stat_significance": 1.0,
+      "effect_magnitude": 0.9757,
+      "coverage": 1.0,
+      "historical_recurrence": 0.6643
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "Vth",
+    "risk_score": 0.0934,
+    "risk_level": "Low",
+    "representative_item": "EDS_142",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1539,
+      "coverage": 0.0,
+      "historical_recurrence": 0.3957
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "Leakage",
+    "risk_score": 0.1028,
+    "risk_level": "Low",
+    "representative_item": "EDS_047",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.2173,
+      "coverage": 0.0,
+      "historical_recurrence": 0.2678
+    }
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "group": "Speed",
+    "risk_score": 0.073,
+    "risk_level": "Low",
+    "representative_item": "EDS_128",
+    "factors": {
+      "stat_significance": 0.0,
+      "effect_magnitude": 0.1486,
+      "coverage": 0.0,
+      "historical_recurrence": 0.21
+    }
+  }
+]

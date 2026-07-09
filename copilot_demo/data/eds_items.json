@@ -1,0 +1,1802 @@
+[
+  {
+    "item_id": "EDS_001",
+    "item_group": "WL",
+    "struct_location": "WL_loc_0",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.077,
+    "baseline_std": 0.163,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_002",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_1",
+    "related_bin": "BIN2",
+    "baseline_mean": 2.169,
+    "baseline_std": 0.282,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_003",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_2",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.397,
+    "baseline_std": 0.256,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_004",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_3",
+    "related_bin": "BIN4",
+    "baseline_mean": 2.495,
+    "baseline_std": 0.107,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_005",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_4",
+    "related_bin": "BIN5",
+    "baseline_mean": 2.996,
+    "baseline_std": 0.066,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_006",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_5",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.224,
+    "baseline_std": 0.208,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_007",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_6",
+    "related_bin": "BIN7",
+    "baseline_mean": 3.911,
+    "baseline_std": 0.139,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_008",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_0",
+    "related_bin": "BIN8",
+    "baseline_mean": 4.868,
+    "baseline_std": 0.273,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_009",
+    "item_group": "WL",
+    "struct_location": "WL_loc_1",
+    "related_bin": "BIN9",
+    "baseline_mean": 4.003,
+    "baseline_std": 0.099,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_010",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_2",
+    "related_bin": "BIN1",
+    "baseline_mean": 2.6,
+    "baseline_std": 0.061,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_011",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_3",
+    "related_bin": "BIN2",
+    "baseline_mean": 1.194,
+    "baseline_std": 0.221,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_012",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_4",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.851,
+    "baseline_std": 0.292,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_013",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_5",
+    "related_bin": "BIN4",
+    "baseline_mean": 1.966,
+    "baseline_std": 0.143,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_014",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_6",
+    "related_bin": "BIN5",
+    "baseline_mean": 2.613,
+    "baseline_std": 0.097,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_015",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_0",
+    "related_bin": "BIN6",
+    "baseline_mean": 1.085,
+    "baseline_std": 0.169,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_016",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_1",
+    "related_bin": "BIN7",
+    "baseline_mean": 1.521,
+    "baseline_std": 0.217,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_017",
+    "item_group": "WL",
+    "struct_location": "WL_loc_2",
+    "related_bin": "BIN8",
+    "baseline_mean": 2.467,
+    "baseline_std": 0.258,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_018",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_3",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.651,
+    "baseline_std": 0.128,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_019",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_4",
+    "related_bin": "BIN1",
+    "baseline_mean": 4.245,
+    "baseline_std": 0.251,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_020",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_5",
+    "related_bin": "BIN2",
+    "baseline_mean": 2.244,
+    "baseline_std": 0.122,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_021",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_6",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.571,
+    "baseline_std": 0.085,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_022",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_0",
+    "related_bin": "BIN4",
+    "baseline_mean": 1.4,
+    "baseline_std": 0.052,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_023",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_1",
+    "related_bin": "BIN5",
+    "baseline_mean": 4.041,
+    "baseline_std": 0.216,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_024",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_2",
+    "related_bin": "BIN6",
+    "baseline_mean": 3.673,
+    "baseline_std": 0.245,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_025",
+    "item_group": "WL",
+    "struct_location": "WL_loc_3",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.565,
+    "baseline_std": 0.192,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_026",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_4",
+    "related_bin": "BIN8",
+    "baseline_mean": 1.129,
+    "baseline_std": 0.079,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_027",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_5",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.508,
+    "baseline_std": 0.168,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_028",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_6",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.044,
+    "baseline_std": 0.241,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_029",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_0",
+    "related_bin": "BIN2",
+    "baseline_mean": 3.356,
+    "baseline_std": 0.188,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_030",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_1",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.016,
+    "baseline_std": 0.126,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_031",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_2",
+    "related_bin": "BIN4",
+    "baseline_mean": 0.639,
+    "baseline_std": 0.159,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_032",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_3",
+    "related_bin": "BIN5",
+    "baseline_mean": 1.466,
+    "baseline_std": 0.152,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_033",
+    "item_group": "WL",
+    "struct_location": "WL_loc_4",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.34,
+    "baseline_std": 0.108,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_034",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_5",
+    "related_bin": "BIN7",
+    "baseline_mean": 0.762,
+    "baseline_std": 0.12,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_035",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_6",
+    "related_bin": "BIN8",
+    "baseline_mean": 1.821,
+    "baseline_std": 0.215,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_036",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_0",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.007,
+    "baseline_std": 0.246,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_037",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_1",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.489,
+    "baseline_std": 0.152,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_038",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_2",
+    "related_bin": "BIN2",
+    "baseline_mean": 4.163,
+    "baseline_std": 0.092,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_039",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_3",
+    "related_bin": "BIN3",
+    "baseline_mean": 0.602,
+    "baseline_std": 0.073,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_040",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_4",
+    "related_bin": "BIN4",
+    "baseline_mean": 3.751,
+    "baseline_std": 0.165,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_041",
+    "item_group": "WL",
+    "struct_location": "WL_loc_5",
+    "related_bin": "BIN5",
+    "baseline_mean": 1.226,
+    "baseline_std": 0.175,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_042",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_6",
+    "related_bin": "BIN6",
+    "baseline_mean": 1.185,
+    "baseline_std": 0.224,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_043",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_0",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.508,
+    "baseline_std": 0.145,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_044",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_1",
+    "related_bin": "BIN8",
+    "baseline_mean": 1.857,
+    "baseline_std": 0.208,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_045",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_2",
+    "related_bin": "BIN9",
+    "baseline_mean": 2.128,
+    "baseline_std": 0.072,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_046",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_3",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.031,
+    "baseline_std": 0.29,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_047",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_4",
+    "related_bin": "BIN2",
+    "baseline_mean": 4.589,
+    "baseline_std": 0.225,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_048",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_5",
+    "related_bin": "BIN3",
+    "baseline_mean": 1.696,
+    "baseline_std": 0.292,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_049",
+    "item_group": "WL",
+    "struct_location": "WL_loc_6",
+    "related_bin": "BIN4",
+    "baseline_mean": 4.004,
+    "baseline_std": 0.229,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_050",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_0",
+    "related_bin": "BIN5",
+    "baseline_mean": 2.522,
+    "baseline_std": 0.118,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_051",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_1",
+    "related_bin": "BIN6",
+    "baseline_mean": 0.934,
+    "baseline_std": 0.276,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_052",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_2",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.551,
+    "baseline_std": 0.101,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_053",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_3",
+    "related_bin": "BIN8",
+    "baseline_mean": 1.877,
+    "baseline_std": 0.195,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_054",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_4",
+    "related_bin": "BIN9",
+    "baseline_mean": 1.295,
+    "baseline_std": 0.264,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_055",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_5",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.913,
+    "baseline_std": 0.23,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_056",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_6",
+    "related_bin": "BIN2",
+    "baseline_mean": 2.444,
+    "baseline_std": 0.207,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_057",
+    "item_group": "WL",
+    "struct_location": "WL_loc_0",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.128,
+    "baseline_std": 0.212,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_058",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_1",
+    "related_bin": "BIN4",
+    "baseline_mean": 0.88,
+    "baseline_std": 0.154,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_059",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_2",
+    "related_bin": "BIN5",
+    "baseline_mean": 0.687,
+    "baseline_std": 0.173,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_060",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_3",
+    "related_bin": "BIN6",
+    "baseline_mean": 1.984,
+    "baseline_std": 0.086,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_061",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_4",
+    "related_bin": "BIN7",
+    "baseline_mean": 0.965,
+    "baseline_std": 0.197,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_062",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_5",
+    "related_bin": "BIN8",
+    "baseline_mean": 1.268,
+    "baseline_std": 0.281,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_063",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_6",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.115,
+    "baseline_std": 0.137,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_064",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_0",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.159,
+    "baseline_std": 0.056,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_065",
+    "item_group": "WL",
+    "struct_location": "WL_loc_1",
+    "related_bin": "BIN2",
+    "baseline_mean": 4.814,
+    "baseline_std": 0.171,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_066",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_2",
+    "related_bin": "BIN3",
+    "baseline_mean": 4.022,
+    "baseline_std": 0.071,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_067",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_3",
+    "related_bin": "BIN4",
+    "baseline_mean": 2.69,
+    "baseline_std": 0.173,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_068",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_4",
+    "related_bin": "BIN5",
+    "baseline_mean": 4.72,
+    "baseline_std": 0.193,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_069",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_5",
+    "related_bin": "BIN6",
+    "baseline_mean": 2.631,
+    "baseline_std": 0.117,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_070",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_6",
+    "related_bin": "BIN7",
+    "baseline_mean": 1.992,
+    "baseline_std": 0.18,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_071",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_0",
+    "related_bin": "BIN8",
+    "baseline_mean": 2.475,
+    "baseline_std": 0.055,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_072",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_1",
+    "related_bin": "BIN9",
+    "baseline_mean": 4.218,
+    "baseline_std": 0.274,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_073",
+    "item_group": "WL",
+    "struct_location": "WL_loc_2",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.131,
+    "baseline_std": 0.189,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_074",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_3",
+    "related_bin": "BIN2",
+    "baseline_mean": 0.989,
+    "baseline_std": 0.218,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_075",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_4",
+    "related_bin": "BIN3",
+    "baseline_mean": 1.766,
+    "baseline_std": 0.215,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_076",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_5",
+    "related_bin": "BIN4",
+    "baseline_mean": 3.771,
+    "baseline_std": 0.242,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_077",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_6",
+    "related_bin": "BIN5",
+    "baseline_mean": 0.985,
+    "baseline_std": 0.279,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_078",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_0",
+    "related_bin": "BIN6",
+    "baseline_mean": 1.536,
+    "baseline_std": 0.059,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_079",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_1",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.997,
+    "baseline_std": 0.143,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_080",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_2",
+    "related_bin": "BIN8",
+    "baseline_mean": 4.234,
+    "baseline_std": 0.252,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_081",
+    "item_group": "WL",
+    "struct_location": "WL_loc_3",
+    "related_bin": "BIN9",
+    "baseline_mean": 1.927,
+    "baseline_std": 0.288,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_082",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_4",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.809,
+    "baseline_std": 0.179,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_083",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_5",
+    "related_bin": "BIN2",
+    "baseline_mean": 1.652,
+    "baseline_std": 0.284,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_084",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_6",
+    "related_bin": "BIN3",
+    "baseline_mean": 1.241,
+    "baseline_std": 0.061,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_085",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_0",
+    "related_bin": "BIN4",
+    "baseline_mean": 2.458,
+    "baseline_std": 0.298,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_086",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_1",
+    "related_bin": "BIN5",
+    "baseline_mean": 4.513,
+    "baseline_std": 0.237,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_087",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_2",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.509,
+    "baseline_std": 0.273,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_088",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_3",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.835,
+    "baseline_std": 0.129,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_089",
+    "item_group": "WL",
+    "struct_location": "WL_loc_4",
+    "related_bin": "BIN8",
+    "baseline_mean": 3.974,
+    "baseline_std": 0.215,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_090",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_5",
+    "related_bin": "BIN9",
+    "baseline_mean": 2.181,
+    "baseline_std": 0.074,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_091",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_6",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.861,
+    "baseline_std": 0.116,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_092",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_0",
+    "related_bin": "BIN2",
+    "baseline_mean": 4.716,
+    "baseline_std": 0.11,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_093",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_1",
+    "related_bin": "BIN3",
+    "baseline_mean": 1.052,
+    "baseline_std": 0.258,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_094",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_2",
+    "related_bin": "BIN4",
+    "baseline_mean": 1.19,
+    "baseline_std": 0.095,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_095",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_3",
+    "related_bin": "BIN5",
+    "baseline_mean": 3.197,
+    "baseline_std": 0.269,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_096",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_4",
+    "related_bin": "BIN6",
+    "baseline_mean": 1.384,
+    "baseline_std": 0.128,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_097",
+    "item_group": "WL",
+    "struct_location": "WL_loc_5",
+    "related_bin": "BIN7",
+    "baseline_mean": 3.998,
+    "baseline_std": 0.293,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_098",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_6",
+    "related_bin": "BIN8",
+    "baseline_mean": 2.753,
+    "baseline_std": 0.086,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_099",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_0",
+    "related_bin": "BIN9",
+    "baseline_mean": 0.563,
+    "baseline_std": 0.107,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_100",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_1",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.093,
+    "baseline_std": 0.219,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_101",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_2",
+    "related_bin": "BIN2",
+    "baseline_mean": 1.048,
+    "baseline_std": 0.177,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_102",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_3",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.624,
+    "baseline_std": 0.195,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_103",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_4",
+    "related_bin": "BIN4",
+    "baseline_mean": 1.399,
+    "baseline_std": 0.251,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_104",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_5",
+    "related_bin": "BIN5",
+    "baseline_mean": 3.719,
+    "baseline_std": 0.235,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_105",
+    "item_group": "WL",
+    "struct_location": "WL_loc_6",
+    "related_bin": "BIN6",
+    "baseline_mean": 1.09,
+    "baseline_std": 0.081,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_106",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_0",
+    "related_bin": "BIN7",
+    "baseline_mean": 4.674,
+    "baseline_std": 0.149,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_107",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_1",
+    "related_bin": "BIN8",
+    "baseline_mean": 1.854,
+    "baseline_std": 0.172,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_108",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_2",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.483,
+    "baseline_std": 0.289,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_109",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_3",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.789,
+    "baseline_std": 0.281,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_110",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_4",
+    "related_bin": "BIN2",
+    "baseline_mean": 0.612,
+    "baseline_std": 0.189,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_111",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_5",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.353,
+    "baseline_std": 0.076,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_112",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_6",
+    "related_bin": "BIN4",
+    "baseline_mean": 1.132,
+    "baseline_std": 0.155,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_113",
+    "item_group": "WL",
+    "struct_location": "WL_loc_0",
+    "related_bin": "BIN5",
+    "baseline_mean": 4.848,
+    "baseline_std": 0.199,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_114",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_1",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.699,
+    "baseline_std": 0.251,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_115",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_2",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.603,
+    "baseline_std": 0.246,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_116",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_3",
+    "related_bin": "BIN8",
+    "baseline_mean": 0.58,
+    "baseline_std": 0.077,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_117",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_4",
+    "related_bin": "BIN9",
+    "baseline_mean": 4.232,
+    "baseline_std": 0.249,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_118",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_5",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.547,
+    "baseline_std": 0.183,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_119",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_6",
+    "related_bin": "BIN2",
+    "baseline_mean": 3.227,
+    "baseline_std": 0.267,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_120",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_0",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.214,
+    "baseline_std": 0.153,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_121",
+    "item_group": "WL",
+    "struct_location": "WL_loc_1",
+    "related_bin": "BIN4",
+    "baseline_mean": 2.184,
+    "baseline_std": 0.156,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_122",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_2",
+    "related_bin": "BIN5",
+    "baseline_mean": 3.434,
+    "baseline_std": 0.267,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_123",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_3",
+    "related_bin": "BIN6",
+    "baseline_mean": 2.543,
+    "baseline_std": 0.112,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_124",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_4",
+    "related_bin": "BIN7",
+    "baseline_mean": 1.565,
+    "baseline_std": 0.237,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_125",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_5",
+    "related_bin": "BIN8",
+    "baseline_mean": 4.175,
+    "baseline_std": 0.076,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_126",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_6",
+    "related_bin": "BIN9",
+    "baseline_mean": 0.8,
+    "baseline_std": 0.199,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_127",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_0",
+    "related_bin": "BIN1",
+    "baseline_mean": 1.158,
+    "baseline_std": 0.256,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_128",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_1",
+    "related_bin": "BIN2",
+    "baseline_mean": 1.897,
+    "baseline_std": 0.086,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_129",
+    "item_group": "WL",
+    "struct_location": "WL_loc_2",
+    "related_bin": "BIN3",
+    "baseline_mean": 4.644,
+    "baseline_std": 0.091,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_130",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_3",
+    "related_bin": "BIN4",
+    "baseline_mean": 1.781,
+    "baseline_std": 0.088,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_131",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_4",
+    "related_bin": "BIN5",
+    "baseline_mean": 1.02,
+    "baseline_std": 0.055,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_132",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_5",
+    "related_bin": "BIN6",
+    "baseline_mean": 0.749,
+    "baseline_std": 0.094,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_133",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_6",
+    "related_bin": "BIN7",
+    "baseline_mean": 0.74,
+    "baseline_std": 0.198,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_134",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_0",
+    "related_bin": "BIN8",
+    "baseline_mean": 3.563,
+    "baseline_std": 0.148,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_135",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_1",
+    "related_bin": "BIN9",
+    "baseline_mean": 1.931,
+    "baseline_std": 0.176,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_136",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_2",
+    "related_bin": "BIN1",
+    "baseline_mean": 4.438,
+    "baseline_std": 0.263,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_137",
+    "item_group": "WL",
+    "struct_location": "WL_loc_3",
+    "related_bin": "BIN2",
+    "baseline_mean": 0.696,
+    "baseline_std": 0.095,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_138",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_4",
+    "related_bin": "BIN3",
+    "baseline_mean": 1.565,
+    "baseline_std": 0.112,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_139",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_5",
+    "related_bin": "BIN4",
+    "baseline_mean": 3.071,
+    "baseline_std": 0.154,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_140",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_6",
+    "related_bin": "BIN5",
+    "baseline_mean": 0.722,
+    "baseline_std": 0.143,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_141",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_0",
+    "related_bin": "BIN6",
+    "baseline_mean": 2.857,
+    "baseline_std": 0.075,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_142",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_1",
+    "related_bin": "BIN7",
+    "baseline_mean": 4.251,
+    "baseline_std": 0.063,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_143",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_2",
+    "related_bin": "BIN8",
+    "baseline_mean": 4.662,
+    "baseline_std": 0.075,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_144",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_3",
+    "related_bin": "BIN9",
+    "baseline_mean": 4.296,
+    "baseline_std": 0.276,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_145",
+    "item_group": "WL",
+    "struct_location": "WL_loc_4",
+    "related_bin": "BIN1",
+    "baseline_mean": 4.908,
+    "baseline_std": 0.251,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_146",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_5",
+    "related_bin": "BIN2",
+    "baseline_mean": 4.008,
+    "baseline_std": 0.211,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_147",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_6",
+    "related_bin": "BIN3",
+    "baseline_mean": 4.005,
+    "baseline_std": 0.084,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_148",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_0",
+    "related_bin": "BIN4",
+    "baseline_mean": 2.912,
+    "baseline_std": 0.179,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_149",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_1",
+    "related_bin": "BIN5",
+    "baseline_mean": 4.359,
+    "baseline_std": 0.166,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_150",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_2",
+    "related_bin": "BIN6",
+    "baseline_mean": 2.233,
+    "baseline_std": 0.21,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_151",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_3",
+    "related_bin": "BIN7",
+    "baseline_mean": 1.699,
+    "baseline_std": 0.085,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_152",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_4",
+    "related_bin": "BIN8",
+    "baseline_mean": 2.65,
+    "baseline_std": 0.154,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_153",
+    "item_group": "WL",
+    "struct_location": "WL_loc_5",
+    "related_bin": "BIN9",
+    "baseline_mean": 1.547,
+    "baseline_std": 0.142,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_154",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_6",
+    "related_bin": "BIN1",
+    "baseline_mean": 2.149,
+    "baseline_std": 0.132,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_155",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_0",
+    "related_bin": "BIN2",
+    "baseline_mean": 2.208,
+    "baseline_std": 0.221,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_156",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_1",
+    "related_bin": "BIN3",
+    "baseline_mean": 1.836,
+    "baseline_std": 0.287,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_157",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_2",
+    "related_bin": "BIN4",
+    "baseline_mean": 4.624,
+    "baseline_std": 0.17,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_158",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_3",
+    "related_bin": "BIN5",
+    "baseline_mean": 1.978,
+    "baseline_std": 0.184,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_159",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_4",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.319,
+    "baseline_std": 0.213,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_160",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_5",
+    "related_bin": "BIN7",
+    "baseline_mean": 4.12,
+    "baseline_std": 0.183,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_161",
+    "item_group": "WL",
+    "struct_location": "WL_loc_6",
+    "related_bin": "BIN8",
+    "baseline_mean": 3.348,
+    "baseline_std": 0.122,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_162",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_0",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.807,
+    "baseline_std": 0.101,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_163",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_1",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.627,
+    "baseline_std": 0.265,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_164",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_2",
+    "related_bin": "BIN2",
+    "baseline_mean": 1.094,
+    "baseline_std": 0.204,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_165",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_3",
+    "related_bin": "BIN3",
+    "baseline_mean": 0.928,
+    "baseline_std": 0.231,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_166",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_4",
+    "related_bin": "BIN4",
+    "baseline_mean": 0.88,
+    "baseline_std": 0.284,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_167",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_5",
+    "related_bin": "BIN5",
+    "baseline_mean": 1.118,
+    "baseline_std": 0.29,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_168",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_6",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.104,
+    "baseline_std": 0.198,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_169",
+    "item_group": "WL",
+    "struct_location": "WL_loc_0",
+    "related_bin": "BIN7",
+    "baseline_mean": 4.022,
+    "baseline_std": 0.249,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_170",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_1",
+    "related_bin": "BIN8",
+    "baseline_mean": 4.757,
+    "baseline_std": 0.113,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_171",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_2",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.155,
+    "baseline_std": 0.074,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_172",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_3",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.273,
+    "baseline_std": 0.093,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_173",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_4",
+    "related_bin": "BIN2",
+    "baseline_mean": 3.042,
+    "baseline_std": 0.193,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_174",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_5",
+    "related_bin": "BIN3",
+    "baseline_mean": 2.597,
+    "baseline_std": 0.181,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_175",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_6",
+    "related_bin": "BIN4",
+    "baseline_mean": 3.938,
+    "baseline_std": 0.25,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_176",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_0",
+    "related_bin": "BIN5",
+    "baseline_mean": 2.715,
+    "baseline_std": 0.2,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_177",
+    "item_group": "WL",
+    "struct_location": "WL_loc_1",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.691,
+    "baseline_std": 0.08,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_178",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_2",
+    "related_bin": "BIN7",
+    "baseline_mean": 1.027,
+    "baseline_std": 0.072,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_179",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_3",
+    "related_bin": "BIN8",
+    "baseline_mean": 3.46,
+    "baseline_std": 0.155,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_180",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_4",
+    "related_bin": "BIN9",
+    "baseline_mean": 3.984,
+    "baseline_std": 0.218,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_181",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_5",
+    "related_bin": "BIN1",
+    "baseline_mean": 2.001,
+    "baseline_std": 0.275,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_182",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_6",
+    "related_bin": "BIN2",
+    "baseline_mean": 3.931,
+    "baseline_std": 0.118,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_183",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_0",
+    "related_bin": "BIN3",
+    "baseline_mean": 2.139,
+    "baseline_std": 0.129,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_184",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_1",
+    "related_bin": "BIN4",
+    "baseline_mean": 1.209,
+    "baseline_std": 0.087,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_185",
+    "item_group": "WL",
+    "struct_location": "WL_loc_2",
+    "related_bin": "BIN5",
+    "baseline_mean": 4.713,
+    "baseline_std": 0.159,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_186",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_3",
+    "related_bin": "BIN6",
+    "baseline_mean": 2.225,
+    "baseline_std": 0.232,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_187",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_4",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.988,
+    "baseline_std": 0.284,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_188",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_5",
+    "related_bin": "BIN8",
+    "baseline_mean": 4.011,
+    "baseline_std": 0.17,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_189",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_6",
+    "related_bin": "BIN9",
+    "baseline_mean": 2.194,
+    "baseline_std": 0.297,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_190",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_0",
+    "related_bin": "BIN1",
+    "baseline_mean": 3.73,
+    "baseline_std": 0.288,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_191",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_1",
+    "related_bin": "BIN2",
+    "baseline_mean": 1.033,
+    "baseline_std": 0.263,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_192",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_2",
+    "related_bin": "BIN3",
+    "baseline_mean": 3.367,
+    "baseline_std": 0.08,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_193",
+    "item_group": "WL",
+    "struct_location": "WL_loc_3",
+    "related_bin": "BIN4",
+    "baseline_mean": 3.147,
+    "baseline_std": 0.222,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_194",
+    "item_group": "Cell_Edge",
+    "struct_location": "Cell_Edge_loc_4",
+    "related_bin": "BIN5",
+    "baseline_mean": 0.555,
+    "baseline_std": 0.164,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_195",
+    "item_group": "Peripheral",
+    "struct_location": "Peripheral_loc_5",
+    "related_bin": "BIN6",
+    "baseline_mean": 4.214,
+    "baseline_std": 0.124,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_196",
+    "item_group": "Contact",
+    "struct_location": "Contact_loc_6",
+    "related_bin": "BIN7",
+    "baseline_mean": 2.563,
+    "baseline_std": 0.161,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_197",
+    "item_group": "Metal",
+    "struct_location": "Metal_loc_0",
+    "related_bin": "BIN8",
+    "baseline_mean": 1.859,
+    "baseline_std": 0.28,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_198",
+    "item_group": "Vth",
+    "struct_location": "Vth_loc_1",
+    "related_bin": "BIN9",
+    "baseline_mean": 4.016,
+    "baseline_std": 0.078,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_199",
+    "item_group": "Leakage",
+    "struct_location": "Leakage_loc_2",
+    "related_bin": "BIN1",
+    "baseline_mean": 4.987,
+    "baseline_std": 0.27,
+    "unit": "a.u."
+  },
+  {
+    "item_id": "EDS_200",
+    "item_group": "Speed",
+    "struct_location": "Speed_loc_3",
+    "related_bin": "BIN2",
+    "baseline_mean": 1.778,
+    "baseline_std": 0.259,
+    "unit": "a.u."
+  }
+]

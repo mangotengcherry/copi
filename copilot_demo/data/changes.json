@@ -1,0 +1,242 @@
+[
+  {
+    "change_id": "CHG-2024-001",
+    "process_step": {
+      "level1": "FE",
+      "level2": "CVD",
+      "level3": "GateOx",
+      "path": "FE/CVD/GateOx"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "증착온도 +5%",
+    "description_ko": "CVD 챔버 증착 온도를 5% 상향 조정하였다.",
+    "period_start": "2024-01-01",
+    "period_end": "2024-01-20",
+    "lot_count": 23,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-002",
+    "process_step": {
+      "level1": "BE",
+      "level2": "Etch",
+      "level3": "STI",
+      "path": "BE/Etch/STI"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "가스 유량 감소",
+    "description_ko": "반응 가스 유량을 8% 감소시켜 두께 균일도를 개선하였다.",
+    "period_start": "2024-02-01",
+    "period_end": "2024-02-20",
+    "lot_count": 51,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-003",
+    "process_step": {
+      "level1": "FE",
+      "level2": "Photo",
+      "level3": "BitLine",
+      "path": "FE/Photo/BitLine"
+    },
+    "change_type": "material",
+    "change_direction": "타겟 소재 교체",
+    "description_ko": "메탈 증착 타겟을 신규 벤더 소재로 교체하였다.",
+    "period_start": "2024-03-01",
+    "period_end": "2024-03-20",
+    "lot_count": 46,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-004",
+    "process_step": {
+      "level1": "BE",
+      "level2": "Implant",
+      "level3": "WordLine",
+      "path": "BE/Implant/WordLine"
+    },
+    "change_type": "route",
+    "change_direction": "세정 스텝 추가",
+    "description_ko": "식각 전 추가 세정 스텝을 라우트에 삽입하였다.",
+    "period_start": "2024-04-01",
+    "period_end": "2024-04-20",
+    "lot_count": 37,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-005",
+    "process_step": {
+      "level1": "FE",
+      "level2": "CMP",
+      "level3": "Contact",
+      "path": "FE/CMP/Contact"
+    },
+    "change_type": "hardware",
+    "change_direction": "챔버 하드웨어 교체",
+    "description_ko": "노후 챔버의 샤워헤드를 신규 부품으로 교체하였다.",
+    "period_start": "2024-05-01",
+    "period_end": "2024-05-20",
+    "lot_count": 37,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-006",
+    "process_step": {
+      "level1": "BE",
+      "level2": "Diffusion",
+      "level3": "M1",
+      "path": "BE/Diffusion/M1"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "이온주입 도즈 상향",
+    "description_ko": "이온주입 도즈를 3% 상향하여 문턱전압을 조정하였다.",
+    "period_start": "2024-06-01",
+    "period_end": "2024-06-20",
+    "lot_count": 55,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-007",
+    "process_step": {
+      "level1": "FE",
+      "level2": "Metal",
+      "level3": "M2",
+      "path": "FE/Metal/M2"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "CMP 압력 변경",
+    "description_ko": "CMP 연마 압력을 재설정하여 평탄도를 조정하였다.",
+    "period_start": "2024-07-01",
+    "period_end": "2024-07-20",
+    "lot_count": 23,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-008",
+    "process_step": {
+      "level1": "BE",
+      "level2": "CVD",
+      "level3": "Poly",
+      "path": "BE/CVD/Poly"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "포토 노광량 조정",
+    "description_ko": "노광 에너지를 미세 조정하여 CD를 보정하였다.",
+    "period_start": "2024-08-01",
+    "period_end": "2024-08-20",
+    "lot_count": 48,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-009",
+    "process_step": {
+      "level1": "FE",
+      "level2": "Etch",
+      "level3": "GateOx",
+      "path": "FE/Etch/GateOx"
+    },
+    "change_type": "material",
+    "change_direction": "슬러리 벤더 변경",
+    "description_ko": "CMP 슬러리 공급 벤더를 변경하였다.",
+    "period_start": "2024-09-01",
+    "period_end": "2024-09-20",
+    "lot_count": 28,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-010",
+    "process_step": {
+      "level1": "BE",
+      "level2": "Photo",
+      "level3": "STI",
+      "path": "BE/Photo/STI"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "확산 시간 단축",
+    "description_ko": "확산 공정 시간을 단축하여 열예산을 줄였다.",
+    "period_start": "2024-10-01",
+    "period_end": "2024-10-20",
+    "lot_count": 23,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-011",
+    "process_step": {
+      "level1": "FE",
+      "level2": "Implant",
+      "level3": "BitLine",
+      "path": "FE/Implant/BitLine"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "식각 레시피 변경",
+    "description_ko": "식각 종료점 검출 조건을 변경하였다.",
+    "period_start": "2024-01-01",
+    "period_end": "2024-01-20",
+    "lot_count": 41,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-012",
+    "process_step": {
+      "level1": "BE",
+      "level2": "CMP",
+      "level3": "WordLine",
+      "path": "BE/CMP/WordLine"
+    },
+    "change_type": "route",
+    "change_direction": "배선 라우트 변경",
+    "description_ko": "M1 배선 경로를 재설계하여 저항을 낮추었다.",
+    "period_start": "2024-02-01",
+    "period_end": "2024-02-20",
+    "lot_count": 60,
+    "status": "past"
+  },
+  {
+    "change_id": "CHG-2024-013",
+    "process_step": {
+      "level1": "FE",
+      "level2": "Diffusion",
+      "level3": "Contact",
+      "path": "FE/Diffusion/Contact"
+    },
+    "change_type": "hardware",
+    "change_direction": "설비 이관",
+    "description_ko": "동일 공정을 신규 설비로 이관하였다.",
+    "period_start": "2024-03-01",
+    "period_end": "2024-03-20",
+    "lot_count": 50,
+    "status": "current"
+  },
+  {
+    "change_id": "CHG-2024-014",
+    "process_step": {
+      "level1": "BE",
+      "level2": "Metal",
+      "level3": "M1",
+      "path": "BE/Metal/M1"
+    },
+    "change_type": "material",
+    "change_direction": "전구체 교체",
+    "description_ko": "증착 전구체를 신규 물질로 교체하였다.",
+    "period_start": "2024-04-01",
+    "period_end": "2024-04-20",
+    "lot_count": 51,
+    "status": "current"
+  },
+  {
+    "change_id": "CHG-2024-015",
+    "process_step": {
+      "level1": "FE",
+      "level2": "CVD",
+      "level3": "M2",
+      "path": "FE/CVD/M2"
+    },
+    "change_type": "recipe_param",
+    "change_direction": "어닐 온도 변경",
+    "description_ko": "후속 어닐 온도를 조정하였다.",
+    "period_start": "2024-05-01",
+    "period_end": "2024-05-20",
+    "lot_count": 49,
+    "status": "current"
+  }
+]
