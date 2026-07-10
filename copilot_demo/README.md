@@ -65,6 +65,16 @@ streamlit run frontend/app.py
 
 브라우저에서 `http://localhost:8501` 접속 → 사이드바에서 변경점 선택 → 3개 탭 사용.
 
+Tab3의 **Copilot 추천 → 승인**: "추천 불러오기" 후 "전체 추천 적용"(일괄) 또는 항목별
+"적용" 버튼으로, group 태그·최종 판정·체크리스트를 사용자가 하나씩 고르지 않고 승인만으로
+폼에 채웁니다. 추천값은 ranking·signal·유사사례에서 코드로 산출됩니다(LLM 미개입).
+
+### (선택) 로컬 확인용 통합 실행
+빈 포트에 백엔드를 자동으로 띄우고 Streamlit(8557)에 연결하는 헬퍼 스크립트:
+```bash
+bash copilot_demo/scripts/preview_run.sh
+```
+
 ## 테스트
 
 ```bash

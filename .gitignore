@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 copilot_demo/data/feedback.jsonl
 .pytest_cache/
+.claude/
