@@ -118,25 +118,100 @@ with tab2:
 
 # ---------- Tab3 ----------
 with tab3:
-    st.subheader("표준 체크리스트")
     checklist = api_get("/checklist")
+    ranking = api_get(f"/changes/{cid}/ranking")
+    top_groups = ranking[:5]
+    tag_options = ["중요", "Noise", "설비의심", "mix의심", "공정가능", "follow-up"]
+    final_options = ["공정영향", "설비영향", "Noise", "재검토"]
+
+    # 위젯 키 헬퍼
+    def ck_key(section, i):
+        return f"{cid}-{section}-{i}"
+
+    def tag_key(group):
+        return f"fb-{cid}-{group}"
+
+    final_key = f"final-{cid}"
+
+    # session_state 기본값 초기화 (위젯 생성 전 — 추천 승인 시 여기에 값을 주입)
+    for sec in checklist["sections"]:
+        for i in range(len(sec["items"])):
+            st.session_state.setdefault(ck_key(sec["section"], i), False)
+    for r in top_groups:
+        st.session_state.setdefault(tag_key(r["group"]), [])
+    st.session_state.setdefault(final_key, final_options[0])
+
+    def _apply_tags(gt):
+        st.session_state[tag_key(gt["group"])] = [t for t in gt["recommended_tags"] if t in tag_options]
+
+    # ---------- Copilot 추천 패널 (위젯보다 위 — session_state 주입 안전) ----------
+    st.subheader("🤖 Copilot 추천 → 승인")
+    st.caption("추천값은 ranking·signal·유사사례에서 코드로 산출됩니다(LLM 미개입). 승인만 하면 아래 폼에 채워집니다.")
+    if st.button("추천 불러오기"):
+        st.session_state[f"recos_{cid}"] = api_get(f"/changes/{cid}/recommendations")
+    recos = st.session_state.get(f"recos_{cid}")
+    if recos:
+        if st.button("✅ 전체 추천 적용", type="primary"):
+            for gt in recos["group_tags"]:
+                _apply_tags(gt)
+            st.session_state[final_key] = recos["final_decision"]["recommended"]
+            for ck in recos["checklist"]:
+                if ck["auto_checked"]:
+                    st.session_state[ck_key(ck["section"], ck["index"])] = True
+            st.rerun()
+
+        st.markdown("**Group 태그 추천**")
+        for gt in recos["group_tags"]:
+            col1, col2 = st.columns([5, 1])
+            col1.markdown(
+                f"- **{gt['group']}** ({gt['risk_level']}) → `{', '.join(gt['recommended_tags'])}`  \n"
+                f"<span style='color:gray;font-size:0.85em'>{gt['reason']}</span>",
+                unsafe_allow_html=True)
+            if col2.button("적용", key=f"ap-tag-{cid}-{gt['group']}"):
+                _apply_tags(gt)
+                st.rerun()
+
+        fd = recos["final_decision"]
+        col1, col2 = st.columns([5, 1])
+        col1.markdown(
+            f"**최종 판정 추천** → `{fd['recommended']}`  \n"
+            f"<span style='color:gray;font-size:0.85em'>{fd['reason']}</span>",
+            unsafe_allow_html=True)
+        if col2.button("적용", key=f"ap-final-{cid}"):
+            st.session_state[final_key] = fd["recommended"]
+            st.rerun()
+
+        st.markdown("**체크리스트 자동체크 추천**")
+        for ck in recos["checklist"]:
+            mark = "✅ 자동체크" if ck["auto_checked"] else "▫️ 확인필요"
+            col1, col2 = st.columns([5, 1])
+            col1.markdown(
+                f"- [{ck['section']}] {ck['item']} — {mark}  \n"
+                f"<span style='color:gray;font-size:0.85em'>{ck['reason']}</span>",
+                unsafe_allow_html=True)
+            if ck["auto_checked"] and col2.button("적용", key=f"ap-ck-{cid}-{ck['section']}-{ck['index']}"):
+                st.session_state[ck_key(ck["section"], ck["index"])] = True
+                st.rerun()
+
+    st.divider()
+
+    # ---------- 리뷰 폼 (session_state 값을 읽어 렌더) ----------
+    st.subheader("표준 체크리스트")
     checklist_state = {}
     for sec in checklist["sections"]:
         st.markdown(f"**{sec['section']}**")
         for i, item in enumerate(sec["items"]):
-            checklist_state[f"{sec['section']}-{i}"] = st.checkbox(item, key=f"{cid}-{sec['section']}-{i}")
+            checklist_state[f"{sec['section']}-{i}"] = st.checkbox(item, key=ck_key(sec["section"], i))
 
     st.subheader("Item Group 피드백")
-    ranking = api_get(f"/changes/{cid}/ranking")
-    tag_options = ["중요", "Noise", "설비의심", "mix의심", "공정가능", "follow-up"]
     group_feedback = []
-    for r in ranking[:5]:
-        tags = st.multiselect(f"{r['group']} ({r['risk_level']})", tag_options, key=f"fb-{cid}-{r['group']}")
+    for r in top_groups:
+        tags = st.multiselect(f"{r['group']} ({r['risk_level']})", tag_options, key=tag_key(r["group"]))
         if tags:
             group_feedback.append({"group": r["group"], "tags": tags})
 
-    final_decision = st.selectbox("최종 판정", ["공정영향", "설비영향", "Noise", "재검토"])
-    comment = st.text_area("자유 코멘트")
+    final_decision = st.selectbox("최종 판정", final_options, key=final_key)
+    comment = st.text_area("자유 코멘트", key=f"comment-{cid}")
 
     if st.button("피드백 저장", type="primary"):
         res = api_post(f"/changes/{cid}/feedback", json={

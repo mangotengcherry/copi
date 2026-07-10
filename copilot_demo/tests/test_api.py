@@ -52,3 +52,12 @@ def test_histogram_endpoint():
     item = ranking[0]["representative_item"]
     h = client.get(f"/changes/{cid}/histogram/{item}").json()
     assert len(h["before"]) > 0 and len(h["after"]) > 0
+
+
+def test_recommendations_endpoint():
+    cid = _current_id()
+    r = client.get(f"/changes/{cid}/recommendations")
+    assert r.status_code == 200
+    body = r.json()
+    assert body["group_tags"] and body["final_decision"]["recommended"]
+    assert len(body["checklist"]) == 10

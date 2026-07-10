@@ -7,10 +7,11 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from backend import data_store as ds, ranking as ranking_mod, similarity, llm_client
 from backend.stats_summary import build_overview, histogram_samples
+from backend.recommend import build_recommendations
 from backend.constants import CHECKLIST, DATA_DIR
 from backend.models import (
     Change, OverviewResponse, SimilarResponse, ChecklistResponse, ChecklistSection,
-    FeedbackRequest, ReportDraftResponse,
+    FeedbackRequest, ReportDraftResponse, RecommendationResponse,
 )
 
 FEEDBACK_FILE = DATA_DIR / "feedback.jsonl"
@@ -97,6 +98,12 @@ def copilot_summary(cid: str):
 @app.get("/checklist", response_model=ChecklistResponse)
 def checklist():
     return ChecklistResponse(sections=[ChecklistSection(**s) for s in CHECKLIST])
+
+
+@app.get("/changes/{cid}/recommendations", response_model=RecommendationResponse)
+def recommendations(cid: str):
+    _require_change(cid)
+    return build_recommendations(cid)
 
 
 @app.post("/changes/{cid}/feedback")

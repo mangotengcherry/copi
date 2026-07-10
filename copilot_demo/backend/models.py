@@ -159,3 +159,30 @@ class FeedbackRequest(BaseModel):
 class ReportDraftResponse(BaseModel):
     markdown: str
     used_llm: bool
+
+
+# ---------- 추천(Copilot 추천 → 승인) ----------
+class GroupTagRecommendation(BaseModel):
+    group: str
+    risk_level: str
+    recommended_tags: list[str]
+    reason: str
+
+
+class FinalDecisionRecommendation(BaseModel):
+    recommended: str
+    reason: str
+
+
+class ChecklistRecommendation(BaseModel):
+    section: str
+    index: int
+    item: str
+    auto_checked: bool
+    reason: str
+
+
+class RecommendationResponse(BaseModel):
+    group_tags: list[GroupTagRecommendation]
+    final_decision: FinalDecisionRecommendation
+    checklist: list[ChecklistRecommendation]
